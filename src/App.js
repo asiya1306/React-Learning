@@ -1,16 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 //import {useState} from 'react';
 import react, {Component} from 'react';
-import { useState } from 'react/cjs/react.development';
+import ClickCounter from './ClickCounter';
+import HoverCounter from './HoverCounter';
+
 
 function App()
 {
-  const [count, setCount] = useState(0)
   return(
-    <div>
-      <h3>Count: {count}</h3>
-      <button onClick = {()=> setCount(count + 1)}>Update</button>
+    <div className="App">
+      <ClickCounter name='Asiya' />
+      <HoverCounter />
     </div>
   )
   
@@ -34,6 +34,39 @@ export default App;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// function App()
+// {
+//   const [count, setCount] = useState(0)
+//   return(
+//     <div>
+//       <h3>Count: {count}</h3>
+//       <button onClick = {()=> setCount(count + 1)}>Update</button>
+//     </div>
+//   )
+  
+// }
+// export default App;
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // class App extends Component {
 
